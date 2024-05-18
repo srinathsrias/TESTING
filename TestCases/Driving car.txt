@@ -1,0 +1,24 @@
+-------------------------Driving car-----------------------
+1) To verify Accelerator Functionality of car.
+2) To verify Brake Functionality of car.
+3) To verify Steering Control of car.
+4) To verify Gear Shifting of car.
+5) To verify Indicators of car.
+6) To verify Headlights of car.
+7) To verify Brake Lights of car.
+8) To verify Horn Functionality of car.
+9) To verify Wipers of car.
+10) To verify Rearview and Side Mirrors of car.
+11) To verify Seatbelt Mechanism of car.
+12) To verify Parking Brake of car.
+13) To verify Dashboard Indicators of car.
+14) To verify Speedometer Accuracy of car.
+15) To verify Air Bag of car.
+16) To verify GPS Navigation of car.
+17) To verify Bluetooth Connectivity of car.
+18) To verify Climate Control of car.
+19) To verify Fuel Gauge of car.
+20) To verify Tire Pressure of car.
+21) To verify Emergency Response of car.
+22) To verify Fuel Cap and Filler Operation of car.
+23) To verify Engine Temperature of car.

@@ -1,0 +1,22 @@
+------------High priority and High severity-----------
+
+1.High priority-The online payment functionality is a critical aspect of an e-commerce website.
+2.High severity-The inability of users to complete the payment process is a severe functional issue.
+
+------------High priority and Low severity-----------
+
+1.High priority- The logo on the login page is considered high priority because 
+                 it's on a front page where users often enter the website.
+2.Low severity- The severity is low because it doesn't impact the core functionality of the login process
+
+------------Low priority and High severity-----------
+
+1.Low priority- If the "Contact Us" link on the website's footer is not working. It is not frequently used it 
+                is considered as low priority 
+2.High severity- Its non-functionality can significantly impact user experience
+
+------------Low priority and Low severity-----------
+
+1.Low priority- The registration form on a website contains a label for the "Date of Birth" field
+                 There is a minor issue with the label text alignment.
+2.Low severity- It does not impact the core functionality of registration page.

@@ -1,0 +1,26 @@
+--------------------------------Login to Flipkart and searching any product and adding it to cart--------------------------
+
+1) To verify login with successful credentials.
+2) To verify login with invalide credentials.
+3) To verify login without entering username and password.
+3) To verify login with entering spaces in username.
+4) To verify the Forgot password functionalities.
+5) To verify login using registerd mobile number by enetring otp.
+6) To verify the product searching in textbox.
+7) To verify the product searched are showing the matching result or not.
+8) To verify the product to the cart from the sreach result
+9) To verify multiple quantities of product to the cart.
+10) To verify the products showing the correct product which I have clicked from my search list.
+11) To verify adding product to cart form product detail page.
+12) To verify adding product cart with color options.
+13) To verify removing product from the cart.
+14) To verify adding product to cart as a guest user.
+15) To verify the save for later functionality.
+16) To verify move to cart funnctionality.
+15) To verify adding the product with offers.
+16) To verify adding the product with discount coupens.
+17) To verify adding the product with free shipping.
+18) To verify adding the product with similar products of that particulart product.
+19) To verify Buy prodct after adding it to cart.
+20) To verify the payment page buy using UPI id.
+21) To verify the product is ordered or not.
