@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="182.662" tests="8" skipped="0" failures="3" errors="0">
+<testcase classname="To validate Registration Functionalities of BuildWith." name="To validate Registration with Valid data_1." time="27.61">
+<system-out><![CDATA[
+Given The user should be in the home page of the application................passed
+Then The user should click "register" button................................passed
+And The user should enter email and password................................passed
+Then The user should click the signup button................................passed
+And The user will be in signup page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Registration Functionalities of BuildWith." name="To validate Registration with Valid data_2." time="19.886">
+<system-out><![CDATA[
+Given The user should be in the home page of the application................passed
+Then The user should click "register" button................................passed
+And The user should enter email and password................................passed
+Then The user should click the signup button................................passed
+And The user will be in signup page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Registration Functionalities of BuildWith." name="To validate Registration with Valid data_3." time="17.723">
+<system-out><![CDATA[
+Given The user should be in the home page of the application................passed
+Then The user should click "register" button................................passed
+And The user should enter email and password................................passed
+Then The user should click the signup button................................passed
+And The user will be in signup page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Registration Functionalities of BuildWith." name="To validate Registration with Valid data_4." time="43.084">
+<system-out><![CDATA[
+Given The user should be in the home page of the application................passed
+Then The user should click "register" button................................passed
+And The user should enter email and password................................passed
+Then The user should click the signup button................................passed
+And The user will be in signup page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Login Functionalities of BuildWith." name="To validate Login with Valid data_1." time="21.826">
+<failure type="java.lang.AssertionError" message="The following asserts failed:
+	expected [9360772960] but found [6381486988]">
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [9360772960] but found [6381486988]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at org.buildwith.Log_Main.the_user_should_enter_emailid_and_password(Log_Main.java:19)
+	at ?.The user should enter emailid and password.(file:///C:/Users/SRI/eclipse-workspace/Cucumber_TestNg/src/test/resources/Features/BuildWith/log.feature:10)
+]]>
+</failure>
+<system-out><![CDATA[
+Given The user should be in the home page of the application................passed
+Then The user should click "login" button...................................passed
+And The user should enter emailid and password..............................failed
+Then The user should click the login button.................................skipped
+And The user will be in login page..........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To validate Login Functionalities of BuildWith." name="To validate Login with Valid data_2." time="18.817">
+<system-out><![CDATA[
+Given The user should be in the home page of the application................passed
+Then The user should click "login" button...................................passed
+And The user should enter emailid and password..............................passed
+Then The user should click the login button.................................passed
+And The user will be in login page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Login Functionalities of BuildWith." name="To validate Login with Valid data_3." time="16.704">
+<failure type="java.lang.AssertionError" message="The following asserts failed:
+	expected [9360772960] but found [9566858082]">
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [9360772960] but found [9566858082]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at org.buildwith.Log_Main.the_user_should_enter_emailid_and_password(Log_Main.java:19)
+	at ?.The user should enter emailid and password.(file:///C:/Users/SRI/eclipse-workspace/Cucumber_TestNg/src/test/resources/Features/BuildWith/log.feature:28)
+]]>
+</failure>
+<system-out><![CDATA[
+Given The user should be in the home page of the application................passed
+Then The user should click "login" button...................................passed
+And The user should enter emailid and password..............................failed
+Then The user should click the login button.................................skipped
+And The user will be in login page..........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To validate Login Functionalities of BuildWith." name="To validate Login with Valid data_4." time="15.829">
+<failure type="java.lang.AssertionError" message="The following asserts failed:
+	expected [9360772960] but found [8300366445]">
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+	expected [9360772960] but found [8300366445]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at org.buildwith.Log_Main.the_user_should_enter_emailid_and_password(Log_Main.java:19)
+	at ?.The user should enter emailid and password.(file:///C:/Users/SRI/eclipse-workspace/Cucumber_TestNg/src/test/resources/Features/BuildWith/log.feature:37)
+]]>
+</failure>
+<system-out><![CDATA[
+Given The user should be in the home page of the application................passed
+Then The user should click "login" button...................................passed
+And The user should enter emailid and password..............................failed
+Then The user should click the login button.................................skipped
+And The user will be in login page..........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
