@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="folder" value="Firefox"/>
+    <parameter name="size" value="1536"/>
+    <parameter name="File" value="1536x864"/>
+    <parameter name="browserlaunch" value="firefox"/>
+    <parameter name="url" value="https://www.getcalley.com/calley-pro-features/"/>
+    <parameter name="height" value="864"/>
+    <classes>
+      <class name="org.task01.Task_01">
+        <methods>
+          <include name="browseLaunch"/>
+          <include name="urlLaunch"/>
+          <include name="screenShot"/>
+        </methods>
+      </class> <!-- org.task01.Task_01 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

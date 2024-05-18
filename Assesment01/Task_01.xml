@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="browserlaunch" value="chrome"></parameter>
+		<parameter name="url" value="https://www.getcalley.com/"></parameter>
+		<parameter name="size" value="1920"></parameter>
+		<parameter name="height" value="1080"></parameter>
+		<parameter name="folder" value="Chrome"></parameter>
+		<parameter name="File" value="1920x1080"></parameter>
+		<classes>
+			<class name="org.task01.Task_01" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Test1">
+		<parameter name="browserlaunch" value="chrome"></parameter>
+		<parameter name="url"
+			value="https://www.getcalley.com/calley-call-from-browser/"></parameter>
+		<parameter name="size" value="1366"></parameter>
+		<parameter name="height" value="768"></parameter>
+		<parameter name="folder" value="Chrome"></parameter>
+		<parameter name="File" value="1366x768"></parameter>
+		<classes>
+			<class name="org.task01.Task_01" />
+		</classes>
+	</test> <!-- Test1 -->
+
+
+	<test name="Test2">
+		<parameter name="browserlaunch" value="firefox"></parameter>
+		<parameter name="url"
+			value="https://www.getcalley.com/calley-pro-features/"></parameter>
+		<parameter name="size" value="1536"></parameter>
+		<parameter name="height" value="864"></parameter>
+		<parameter name="folder" value="Firefox"></parameter>
+		<parameter name="File" value="1536x864"></parameter>
+		<classes>
+			<class name="org.task01.Task_01" />
+		</classes>
+	</test> <!-- Test2 -->
+
+
+	<test name="Test3">
+		<parameter name="browserlaunch" value="chrome"></parameter>
+		<parameter name="url"
+			value="https://www.getcalley.com/best-auto-dialer-app/"></parameter>
+		<parameter name="size" value="360"></parameter>
+		<parameter name="height" value="640"></parameter>
+		<parameter name="folder" value="Chrome"></parameter>
+		<parameter name="File" value="360x640"></parameter>
+		<classes>
+			<class name="org.task01.Task_01" />
+		</classes>
+	</test> <!-- Test3 -->
+
+
+	<test name="Test4">
+		<parameter name="browserlaunch" value="firefox"></parameter>
+		<parameter name="url"
+			value="https://www.getcalley.com/how-calley-auto-dialer-app-works/"></parameter>
+		<parameter name="size" value="414"></parameter>
+		<parameter name="height" value="896"></parameter>
+		<parameter name="folder" value="Firefox"></parameter>
+		<parameter name="File" value="414x896"></parameter>
+		<classes>
+			<class name="org.task01.Task_01" />
+		</classes>
+	</test> <!-- Test4 -->
+
+
+	<test name="Test5">
+		<parameter name="browserlaunch" value="firefox"></parameter>
+		<parameter name="url"
+			value="https://www.getcalley.com/calley-zoho-crm-integration/"></parameter>
+		<parameter name="size" value="375"></parameter>
+		<parameter name="height" value="667"></parameter>
+		<parameter name="folder" value="Firefox"></parameter>
+		<parameter name="File" value="357x667"></parameter>
+		<classes>
+			<class name="org.task01.Task_01" />
+		</classes>
+	</test> <!-- Test5 -->
+</suite> <!-- Suite -->

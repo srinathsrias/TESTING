@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="251270" started-at="2024-03-11T13:23:48Z" finished-at="2024-03-11T13:28:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37190" started-at="2024-03-11T13:23:48Z" finished-at="2024-03-11T13:24:26Z">
+      <class name="org.task01.Task_01">
+        <test-method status="PASS" signature="browseLaunch(java.lang.String)[pri:0, instance:org.task01.Task_01@1ce92674]" name="browseLaunch" is-config="true" duration-ms="18427" started-at="2024-03-11T13:23:49Z" finished-at="2024-03-11T13:24:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseLaunch -->
+        <test-method status="PASS" signature="urlLaunch(java.lang.String, int, int)[pri:0, instance:org.task01.Task_01@1ce92674]" name="urlLaunch" duration-ms="13763" started-at="2024-03-11T13:24:07Z" finished-at="2024-03-11T13:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.getcalley.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1920]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method status="PASS" signature="screenShot(java.lang.String, java.lang.String)[pri:0, instance:org.task01.Task_01@1ce92674]" name="screenShot" is-config="true" duration-ms="4854" started-at="2024-03-11T13:24:21Z" finished-at="2024-03-11T13:24:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1920x1080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- org.task01.Task_01 -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="41939" started-at="2024-03-11T13:24:26Z" finished-at="2024-03-11T13:25:08Z">
+      <class name="org.task01.Task_01">
+        <test-method status="PASS" signature="browseLaunch(java.lang.String)[pri:0, instance:org.task01.Task_01@dc24521]" name="browseLaunch" is-config="true" duration-ms="5493" started-at="2024-03-11T13:24:26Z" finished-at="2024-03-11T13:24:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseLaunch -->
+        <test-method status="PASS" signature="urlLaunch(java.lang.String, int, int)[pri:0, instance:org.task01.Task_01@dc24521]" name="urlLaunch" duration-ms="32302" started-at="2024-03-11T13:24:31Z" finished-at="2024-03-11T13:25:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.getcalley.com/calley-call-from-browser/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1366]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method status="PASS" signature="screenShot(java.lang.String, java.lang.String)[pri:0, instance:org.task01.Task_01@dc24521]" name="screenShot" is-config="true" duration-ms="4138" started-at="2024-03-11T13:25:04Z" finished-at="2024-03-11T13:25:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1366x768]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- org.task01.Task_01 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="64595" started-at="2024-03-11T13:25:08Z" finished-at="2024-03-11T13:26:12Z">
+      <class name="org.task01.Task_01">
+        <test-method status="PASS" signature="browseLaunch(java.lang.String)[pri:0, instance:org.task01.Task_01@2038ae61]" name="browseLaunch" is-config="true" duration-ms="14927" started-at="2024-03-11T13:25:08Z" finished-at="2024-03-11T13:25:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseLaunch -->
+        <test-method status="PASS" signature="urlLaunch(java.lang.String, int, int)[pri:0, instance:org.task01.Task_01@2038ae61]" name="urlLaunch" duration-ms="38914" started-at="2024-03-11T13:25:23Z" finished-at="2024-03-11T13:26:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.getcalley.com/calley-pro-features/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1536]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[864]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method status="PASS" signature="screenShot(java.lang.String, java.lang.String)[pri:0, instance:org.task01.Task_01@2038ae61]" name="screenShot" is-config="true" duration-ms="10738" started-at="2024-03-11T13:26:02Z" finished-at="2024-03-11T13:26:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1536x864]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- org.task01.Task_01 -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="25196" started-at="2024-03-11T13:26:12Z" finished-at="2024-03-11T13:26:37Z">
+      <class name="org.task01.Task_01">
+        <test-method status="PASS" signature="browseLaunch(java.lang.String)[pri:0, instance:org.task01.Task_01@a67c67e]" name="browseLaunch" is-config="true" duration-ms="5677" started-at="2024-03-11T13:26:12Z" finished-at="2024-03-11T13:26:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseLaunch -->
+        <test-method status="PASS" signature="urlLaunch(java.lang.String, int, int)[pri:0, instance:org.task01.Task_01@a67c67e]" name="urlLaunch" duration-ms="17032" started-at="2024-03-11T13:26:18Z" finished-at="2024-03-11T13:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.getcalley.com/best-auto-dialer-app/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[640]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method status="PASS" signature="screenShot(java.lang.String, java.lang.String)[pri:0, instance:org.task01.Task_01@a67c67e]" name="screenShot" is-config="true" duration-ms="2480" started-at="2024-03-11T13:26:35Z" finished-at="2024-03-11T13:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[360x640]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- org.task01.Task_01 -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="38091" started-at="2024-03-11T13:26:37Z" finished-at="2024-03-11T13:27:16Z">
+      <class name="org.task01.Task_01">
+        <test-method status="PASS" signature="browseLaunch(java.lang.String)[pri:0, instance:org.task01.Task_01@5ec0a365]" name="browseLaunch" is-config="true" duration-ms="18190" started-at="2024-03-11T13:26:37Z" finished-at="2024-03-11T13:26:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseLaunch -->
+        <test-method status="PASS" signature="urlLaunch(java.lang.String, int, int)[pri:0, instance:org.task01.Task_01@5ec0a365]" name="urlLaunch" duration-ms="13073" started-at="2024-03-11T13:26:56Z" finished-at="2024-03-11T13:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.getcalley.com/how-calley-auto-dialer-app-works/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[414]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[896]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method status="PASS" signature="screenShot(java.lang.String, java.lang.String)[pri:0, instance:org.task01.Task_01@5ec0a365]" name="screenShot" is-config="true" duration-ms="6821" started-at="2024-03-11T13:27:09Z" finished-at="2024-03-11T13:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[414x896]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- org.task01.Task_01 -->
+    </test> <!-- Test4 -->
+    <test name="Test5" duration-ms="44099" started-at="2024-03-11T13:27:16Z" finished-at="2024-03-11T13:28:00Z">
+      <class name="org.task01.Task_01">
+        <test-method status="PASS" signature="browseLaunch(java.lang.String)[pri:0, instance:org.task01.Task_01@56235b8e]" name="browseLaunch" is-config="true" duration-ms="13536" started-at="2024-03-11T13:27:16Z" finished-at="2024-03-11T13:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseLaunch -->
+        <test-method status="PASS" signature="urlLaunch(java.lang.String, int, int)[pri:0, instance:org.task01.Task_01@56235b8e]" name="urlLaunch" duration-ms="23622" started-at="2024-03-11T13:27:29Z" finished-at="2024-03-11T13:27:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.getcalley.com/calley-zoho-crm-integration/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method status="PASS" signature="screenShot(java.lang.String, java.lang.String)[pri:0, instance:org.task01.Task_01@56235b8e]" name="screenShot" is-config="true" duration-ms="6921" started-at="2024-03-11T13:27:53Z" finished-at="2024-03-11T13:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[357x667]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- org.task01.Task_01 -->
+    </test> <!-- Test5 -->
+  </suite> <!-- Suite -->
+</testng-results>
